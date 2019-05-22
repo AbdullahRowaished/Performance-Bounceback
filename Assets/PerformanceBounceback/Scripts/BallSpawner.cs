@@ -64,7 +64,7 @@ public GameObject GetPooledBall()
     void SpawnBall()
     {
         GameObject selectedBall = BallSpawner.current.GetPooledBall();
-        selectedBall.transform.position = transform.position;
+        selectedBall.transform.SetPositionAndRotation(transform.position, transform.rotation); //changed from direct assignment
         Rigidbody selectedRigidbody = selectedBall.GetComponent<Rigidbody>();
         selectedRigidbody.velocity = Vector3.zero;
         selectedRigidbody.angularVelocity = Vector3.zero;
