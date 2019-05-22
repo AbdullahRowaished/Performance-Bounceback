@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06e1444132298848a06f3fec10dbb75, type: 3}
+  m_Name: __actions_PerformanceBounceback
+  m_EditorClassIdentifier: 
+  allActions:
+  - {fileID: 11400000, guid: e2dbaa9d0d8134e43af2dc2de0c7977a, type: 2}
+  - {fileID: 11400000, guid: f68b80cd4301dbb40b85eb4524f69504, type: 2}
+  nonVisualInActions:
+  - {fileID: 11400000, guid: e2dbaa9d0d8134e43af2dc2de0c7977a, type: 2}
+  visualActions: []
+  poseActions: []
+  skeletonActions: []
+  outActionArray:
+  - {fileID: 11400000, guid: f68b80cd4301dbb40b85eb4524f69504, type: 2}
+  fullPath: /actions/PerformanceBounceback
+  usage: single
+  inActions: {fileID: 11400000, guid: 9aefbeb05f4215145bc2575c975ebfa9, type: 2}
+  outActions: {fileID: 11400000, guid: 82381fcb70000b645b4e721605108f2c, type: 2}

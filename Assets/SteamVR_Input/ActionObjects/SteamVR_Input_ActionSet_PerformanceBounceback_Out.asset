@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d87eb08792cd146bc8dbd03fb60c86, type: 3}
+  m_Name: SteamVR_Input_ActionSet_PerformanceBounceback_Out
+  m_EditorClassIdentifier: 
+  actionSet: {fileID: 0}
+  listDirection: 1
+  actions:
+  - {fileID: 11400000, guid: f68b80cd4301dbb40b85eb4524f69504, type: 2}
+  Haptic: {fileID: 11400000, guid: f68b80cd4301dbb40b85eb4524f69504, type: 2}
