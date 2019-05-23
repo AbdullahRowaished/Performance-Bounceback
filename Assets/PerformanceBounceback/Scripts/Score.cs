@@ -19,11 +19,11 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        text.text = "Score: " + gameManager.score.ToString(); //Apply only when score changes
-        //if (oldScore != gameManager.score)
-        //{
-        //    text.text = "Score: " + gameManager.score.ToString();
-        //    oldScore = gameManager.score;
-        //}
+        //text.text = "Score: " + gameManager.score.ToString(); //Apply only when score changes
+        if (oldScore != gameManager.score)
+        {
+            text.text = "Score: " + gameManager.score.ToString();
+            oldScore = gameManager.score;
+        }
     }
 }
