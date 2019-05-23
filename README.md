@@ -11,3 +11,5 @@ Replaced the older SteamVR plugin with the new version.
 - The SteamVR "[CameraRig]" has been replaced with the "[Player]" prefab. 
 - Ball prefab has the scripts "Interactable", "Velocity Estimator", and "Throwable" to support SteamVR default grab controls. 
 - Removed Throw script as it's no longer needed.
+- This project-master has been adapted for educational use.
+- Oculus Rift was used.
