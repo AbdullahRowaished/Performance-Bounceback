@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DebugManager : MonoBehaviour {
-    public static bool isDebugging = true;
+    public static bool isDebugging = false;
     public static DebugManager debugManager;
 
     void Start()
